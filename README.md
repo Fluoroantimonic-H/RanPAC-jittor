@@ -88,13 +88,9 @@ python jt_main.py -i 7 -d cifar224
 
 ## 🏆 性能对比
 
-* CIFAR100 数据集：
+* jittor 实现与 pytorch 实现性能对比
 
-![CIFAR100 Performance](images/performance_cifar.png)
-
-* CUB200 数据集：
-
-![CUB200 Performance](images/performance_cub.png)
+![Performance Comparison](images/performance.png)
 
 ---
 
