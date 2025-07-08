@@ -88,7 +88,8 @@ python jt_main.py -i 7 -d cifar224
 
 ## 🏆 性能对比
 
-* jittor 实现与 pytorch 实现性能对比
+* jittor 实现与 pytorch 实现性能对比：
+* （官方实现中的 PETL 方法使用了adapter，我在看过 CVPR'24 的 InfLoRA 后尝试使用 LoRA 替换 adapter， 取得了有趣的实验结果）
 
 ![Performance Comparison](images/performance.png)
 
