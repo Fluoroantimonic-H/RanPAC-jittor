@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### 数据集下载
 
-除了 CIFAR100, 数据集下载后需要将其移动到相对目录 "./data/dataset_name/train/" 和 "./data/dataset_name/test/" 下。
+除了 CIFAR100, 数据集下载后需要将其移动到相对目录 `"./data/dataset_name/train/"` 和 `"./data/dataset_name/test/"` 下。
 
 > **CIFAR100**: 无需手动下载 \
 > **CUB200**:  Google Drive: [link](https://drive.google.com/file/d/1XbUpnWpJPnItt5zQ6sHJnsjPncnNLvWb/view?usp=sharing) or Onedrive: [link](https://entuedu-my.sharepoint.com/:u:/g/personal/n2207876b_e_ntu_edu_sg/EVV4pT9VJ9pBrVs2x0lcwd0BlVQCtSrdbLVfhuajMry-lA?e=L6Wjsc)  
@@ -92,6 +92,8 @@ python jt_main.py -i 7 -d cifar224
 * （官方实现中的 PETL 方法使用了adapter，我在看过 CVPR'24 的 InfLoRA 后尝试使用 LoRA 替换 adapter， 取得了有趣的实验结果）
 
 ![Performance Comparison](images/performance.png)
+
+* 详细内容请参照 `"./logs/dataset_name/"`
 
 ---
 
