@@ -71,6 +71,8 @@ python jt_main.py -i 7 -d cifar224
 
 -  -d 为数据集，可以从 'cifar224', 'cub'中选择
 
+-  预训练模型 `vit_base_patch16_224.pt` 、`vit_base_patch16_224_lora.pt` 、 `vit_base_patch16_224_in21k_lora.pt` 可以从 [这里](https://pan.baidu.com/s/1YjgvAA2mk_1W-Kc6Nd9BMw?pwd=0000) 获取
+
 ---
 
 ## 📝  loss 曲线
